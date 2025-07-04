@@ -67,3 +67,31 @@ Expected graduation: December 2025
 
 ## Code example:
 
+```
+function spinWords(string){
+  let newString = [];
+  
+  for (let word of string.split(" ")) {
+    if ( word.length >= 5)  {
+        newString.push (word.split('').reverse().join(''));
+        } else {
+          newString.push(word);
+        }
+  }
+  return newString.join(' ');
+}
+
+console.log(spinWords("Hey fellow warriors")); 
+```
+
+## Languages
+
+* Russian (Native)
+* Spanish (Intermediate)
+* English (Pre-Intermediate)
+
+## Pet Projects:
+
+* [Cat Energy](https://github.com/pixelslogic/Cat-energy)
+* [Orbitra](https://github.com/pixelslogic/Orbitra) (in process)
+* [SuperGym](https://github.com/pixelslogic/SuperGym)
