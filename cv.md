@@ -1,5 +1,7 @@
 # Viktoriia Tozik
 
+<img src="https://sun9-36.userapi.com/s/v1/ig2/I6-3_k7W5BZER6hP-8drHBC2mk58XB6vzX-sCakgjgogb2RCTxR1ut7Y29X6xoFDoi5_53WbFWRgAkXNLNQt7wiB.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,810x1080&from=bu&cs=810x0" width="100"/>
+
 **Junior Frontend Developer**
 Bilbao, Spain | [E-mail](toz.vito@gmail.com) | [GitHub](https://github.com/pixelslogic) | [Discord](Viktoria (@pixelslogic))
 
@@ -52,6 +54,7 @@ Responsibilities:
 ***
 
 ## Education
+
 * **Vocational Education and Training (VET) Diploma** *(in progress)*  
 **Field of Study:** Information Systems and Programming  
 **Specialization:** Web and Multimedia Application Developer  
