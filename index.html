@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+</head>
+<body>
+  <header class="header">
+    <a class="header-logo" href="index.html">
+        <span class="header-logo-text">CV</span>
+    </a>
+    <nav class="header-nav">
+      <ul class="header-nav-list">
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#">About me</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#">Pet projects</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <h1 class="visually-hidden">Curriculum Vitae</h1>
+    <div class="personal-info">
+      <section>
+        <div>
+          <!-- заменить на фото -->
+          <img class="personal-photo" src="#" alt="Photo of the person">
+          <!-- файл выше -->
+          <h3>Location</h3>
+          <address>
+            <span>Bilbao, Spain</span>
+          </address>
+          <a class="contacts-phone" href="toz.vito@gmail.com">Email</a>
+          <a href="https://github.com/pixelslogic">Github</a>
+          <a href="https://discordapp.com/users/pixelslogic">Discord</a>
+        </div>
+
+        <div class="languages">
+          <h2>Languages</h2>
+          <ul class="languages-list">
+            <li class="languages-item">Russian (Native)</li>
+            <li class="languages-item">Spanish (Intermediate)</li>
+            <li class="languages-item">English (Pre-Intermediate)</li>
+          </ul>
+        </div>
+
+        <div class="skills">
+          <h2>Skills</h2>
+          <ul class="skills-list">
+            <li class="skills-item">HTML</li>
+            <li class="skills-item">CSS</li>
+            <li class="skills-item">JavaScript</li>
+            <li class="skills-item">Freemarker</li>
+            <li class="skills-item">React</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <div class="additional-info">
+      <section>
+        <h2>Viktoriia Tozik</h2>
+        <h3>Junior Frontend Developer</h3>
+        <p>Studying frontend development with a growing interest in game creation. Passionate about learning new technologies and building interactive, user-friendly applications.
+          Ready to contribute to a team and grow through hands-on experience.</p>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+        <div>
+          <h3>Desarrollador</h3>
+          <span>Petrozavodsk, Russia | August 2023 - August 2024 | 1 year</span>
+        </div>
+        <div>
+          <p>Desarollo de sistemas de gestion de documentos para la Administracion regional.</p>
+          <span>Projects</span>
+          <ul>
+            <li>Application for maternity/paternity leave benefits</li>
+            <li>Building permit request</li>
+            <li>Income tax (IRPF) payment</li>
+            <li>Passport renewal system</li>
+          </ul>
+          <p>Chatbot Management with Text-to-Speech Functionality:</p>
+          <span>Responsibilities:</span>
+          <ul>
+            <li>Ticket management</li>
+            <li>Communication between companies</li>
+            <li>Collaboration with developers</li>
+            <li>Error diagnosis</li>
+            <li>User communication to detect issues</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <ul class="education-list">
+          <li class="education-item">
+            <h3>Vocational Education and Training (VET) Diploma <i>(in progress)</i></h3>
+            <p>Field of Study: Information Systems and Programming<br>
+                Specialization: Web and Multimedia Application Developer<br>
+                Qualification Level: EQF Level 4 (expected)<br>
+                Institution: S.Y. Witte Moscow University, Moscow, Russia Expected graduation: December 2025</p>
+          </li>
+          <li class="education-item">
+            <h3>Frontend Developer Certification</h3>
+            <p>HTML Academy</p>
+          </li>
+          <li class="education-item">
+            <h3>Auxiliary Assembly and Maintenance of Microcomputer Systems</h3>
+            <p>Ipartek Formación</p>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Code example:</h2>
+        <pre>
+          <code>
+            function spinWords(string){
+              let newString = [];
+              
+              for (let word of string.split(" ")) {
+                if ( word.length >= 5)  {
+                    newString.push (word.split('').reverse().join(''));
+                    } else {
+                      newString.push(word);
+                    }
+              }
+              return newString.join(' ');
+            }
+
+            console.log(spinWords("Hey fellow warriors")); 
+          </code>
+        </pre>
+      </section>
+
+      <section>
+        <h2>Pet Projects</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/pixelslogic/Cat-energy">Cat Energy</a>
+          </li>
+                    <li>
+            <a href="https://github.com/pixelslogic/Orbitra">Orbitra (in process)</a>
+          </li>
+                    <li>
+            <a href="https://github.com/pixelslogic/SuperGym">SuperGym</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
