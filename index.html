@@ -4,170 +4,323 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
-    <a class="header-logo" href="index.html">
-        <span class="header-logo-text">CV</span>
-    </a>
-    <nav class="header-nav">
-      <ul class="header-nav-list">
-        <li class="header-nav-item">
-          <a class="header-nav-link" href="#">About me</a>
+  <div class="container">
+    <header class="header">
+      <nav class="header-nav nav">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--active">
+            <em></em>
+            <a class="nav__link" href="#">Home</a>
+          </li>
+          <li class="nav__item">
+            <em></em>
+            <a class="nav__link" href="#">Experience</a>
+          </li>
+          <li class="nav__item">
+            <em></em>
+            <a class="nav__link" href="#">Experience</a>
+          </li>
+          <li class="nav__item">
+            <em></em>
+            <a class="nav__link" href="#">Skills</a>
+          </li>
+          <li class="nav__item">
+            <em></em>
+            <a class="nav__link" href="#">Education</a>
+          </li>
+          <li class="nav__item">
+            <em></em>
+            <a class="nav__link" href="#">Pet projects</a>
+          </li>
+        </ul>
+
+      <div class="preloader-ex a">
+        <object id="detroit-object" type="image/svg+xml" data="img/led-example.svg" class="detroit-object"></object>
+      </div>
+
+      </nav>
+    </header>
+    <main class="main">
+      <h1 class="main__title visually-hidden">Curriculum Vitae</h1>
+      <div class="main__container personal-info">
+        <section class="personal-info__section contacts">
+          <div class="contacts__content cube">
+            <div class="cube__wrapper">
+              <h2>Hi, I'm Viktoriia, a Junior <span>Frontend</span> Developer</h2>
+              <p>Studying frontend development with a growing interest in game creation. Passionate about learning new technologies and building interactive, user-friendly applications. Ready to contribute to a team and grow through hands-on experience.</p>
+              <div class="cube__img">
+                <img src="img/Кошка_Вирго.jpg" alt="Photo of the person">
+              </div>
+            </div>
+          </div>
+          <div class="contacts__content">
+            <div class="contacts__title-wrapper">
+              <div class="contacts__icon">
+                <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.67576 4.37649C4.07984 4.37649 4.47484 4.25666 4.81081 4.03217C5.14679 3.80768 5.40865 3.4886 5.56328 3.11528C5.71792 2.74197 5.75838 2.33118 5.67954 1.93487C5.60071 1.53856 5.40613 1.17452 5.12041 0.888799C4.83468 0.603074 4.47065 0.408494 4.07434 0.329663C3.67803 0.250831 3.26724 0.29129 2.89392 0.445923C2.52061 0.600556 2.20153 0.862418 1.97704 1.19839C1.75254 1.53437 1.63272 1.92937 1.63272 2.33345C1.63272 2.87529 1.84797 3.39495 2.23111 3.77809C2.61426 4.16124 3.13391 4.37649 3.67576 4.37649Z" fill="#18191C"/>
+                  <path d="M6.74031 9.48407C6.87577 9.48407 7.00569 9.43026 7.10147 9.33448C7.19726 9.23869 7.25107 9.10878 7.25107 8.97331C7.25107 8.02508 6.87439 7.11568 6.20389 6.44518C5.53338 5.77468 4.62399 5.39799 3.67575 5.39799C2.72752 5.39799 1.81812 5.77468 1.14762 6.44518C0.477118 7.11568 0.100433 8.02508 0.100433 8.97331C0.100433 9.10878 0.154246 9.23869 0.250032 9.33448C0.345818 9.43026 0.475731 9.48407 0.611193 9.48407H6.74031Z" fill="#18191C"/>
+                </svg>
+              </div>
+              <h2>Reach me</h2>
+            </div>
+            <address class="contacts__address">
+              <div class="contacts__svg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"> <linearGradient id="3WRjkmbDiHzgKrYgBi5ySa" x1="32" x2="32" y1="7" y2="58.489" gradientUnits="userSpaceOnUse"> <stop offset="0" stop-color="#1a6dff"></stop> <stop offset="1" stop-color="#c822ff"></stop> </linearGradient> <path fill="url(#3WRjkmbDiHzgKrYgBi5ySa)" d="M32,6C17.663,6,6,17.664,6,32s11.663,26,26,26s26-11.664,26-26S46.337,6,32,6z M32,56 C18.767,56,8,45.233,8,32S18.767,8,32,8s24,10.767,24,24S45.233,56,32,56z"></path> <linearGradient id="3WRjkmbDiHzgKrYgBi5ySb" x1="32" x2="32" y1="7" y2="58.489" gradientUnits="userSpaceOnUse"> <stop offset="0" stop-color="#1a6dff"></stop> <stop offset="1" stop-color="#c822ff"></stop> </linearGradient> <path fill="url(#3WRjkmbDiHzgKrYgBi5ySb)" d="M32,10c-12.131,0-22,9.869-22,22s9.869,22,22,22s22-9.869,22-22S44.131,10,32,10z M51.949,31 h-6.978c-0.194-7.612-2.564-14.094-6.119-17.765C46.21,15.931,51.542,22.819,51.949,31z M42.972,31H33V12.089 C38.415,12.983,42.699,21.044,42.972,31z M31,12.089V31h-9.972C21.301,21.044,25.585,12.983,31,12.089z M25.148,13.235 C21.593,16.906,19.223,23.388,19.029,31h-6.978C12.458,22.819,17.79,15.931,25.148,13.235z M12.051,33h6.978 c0.194,7.612,2.564,14.094,6.119,17.765C17.79,48.069,12.458,41.181,12.051,33z M21.028,33H31v18.911 C25.585,51.017,21.301,42.956,21.028,33z M33,51.911V33h9.972C42.699,42.956,38.415,51.017,33,51.911z M38.852,50.765 c3.555-3.672,5.926-10.153,6.119-17.765h6.978C51.542,41.181,46.21,48.069,38.852,50.765z"></path> <linearGradient id="3WRjkmbDiHzgKrYgBi5ySc" x1="26.573" x2="26.573" y1="18.106" y2="28.575" gradientUnits="userSpaceOnUse"> <stop offset="0" stop-color="#6dc7ff"></stop> <stop offset="1" stop-color="#e6abff"></stop> </linearGradient> <path fill="url(#3WRjkmbDiHzgKrYgBi5ySc)" d="M29,16.447c-2.321,2.208-4.323,6.789-4.854,12.553H29V16.447z"></path> <linearGradient id="3WRjkmbDiHzgKrYgBi5ySd" x1="26.573" x2="26.573" y1="34.894" y2="43.912" gradientUnits="userSpaceOnUse"> <stop offset="0" stop-color="#6dc7ff"></stop> <stop offset="1" stop-color="#e6abff"></stop> </linearGradient> <path fill="url(#3WRjkmbDiHzgKrYgBi5ySd)" d="M29,47.553V35h-4.854C24.677,40.764,26.679,45.345,29,47.553z"></path></svg>
+              </div>
+                <span>Bilbao, Spain</span>
+            </address>
+            <ul class="contacts__list">
+              <li>
+                <a class="contacts__link" href="mailto:toz.vito@gmail.com">
+                  <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64" width="64px" height="64px"><linearGradient id="X8PQgv_hN2z14HAU6EeM8a" x1="32" x2="32" y1="12" y2="52" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#1a6dff"/><stop offset="1" stop-color="#c822ff"/></linearGradient><path fill="url(#X8PQgv_hN2z14HAU6EeM8a)" d="M58,16.82h-0.01C57.94,14.15,55.81,12,53.2,12H10.8c-2.61,0-4.74,2.15-4.79,4.82H6 c0,0.01,0.01,0.02,0.01,0.04S6,16.89,6,16.91v30.18C6,49.8,8.16,52,10.8,52h42.4c2.64,0,4.8-2.2,4.8-4.91V16.91 c0-0.02-0.01-0.03-0.01-0.05S58,16.83,58,16.82z M50.67,14L32,27.11L13.33,14H50.67z M10.03,14.13L32,29.56l21.97-15.43 c1.15,0.34,2,1.42,2.02,2.72c-0.03,0.64-0.87,1.44-1.3,1.74L32,34.77L9.3,18.58c-0.42-0.29-1.26-1.09-1.29-1.73 C8.03,15.55,8.88,14.47,10.03,14.13z M12,23v27h-1.2C9.26,50,8,48.69,8,47.09V20.11c0.07,0.05,0.12,0.09,0.14,0.11L12.05,23H12z M50,50H14V24.39l18,12.84l18-12.84V50z M56,47.09c0,1.6-1.26,2.91-2.8,2.91H52V23h-0.05l3.9-2.78c0.02-0.02,0.08-0.06,0.15-0.11 V47.09z"/><linearGradient id="X8PQgv_hN2z14HAU6EeM8b" x1="53.975" x2="53.975" y1="20.11" y2="50" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"/><stop offset="1" stop-color="#e6abff"/></linearGradient><path fill="url(#X8PQgv_hN2z14HAU6EeM8b)" d="M56,20.11v26.98c0,1.6-1.26,2.91-2.8,2.91H52V23h-0.05l3.9-2.78 C55.87,20.2,55.93,20.16,56,20.11z"/><linearGradient id="X8PQgv_hN2z14HAU6EeM8c" x1="10.025" x2="10.025" y1="20.11" y2="50" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"/><stop offset="1" stop-color="#e6abff"/></linearGradient><path fill="url(#X8PQgv_hN2z14HAU6EeM8c)" d="M12.05,23H12v27h-1.2C9.26,50,8,48.69,8,47.09V20.11c0.07,0.05,0.12,0.09,0.14,0.11L12.05,23z"/><linearGradient id="X8PQgv_hN2z14HAU6EeM8d" x1="32" x2="32" y1="14.13" y2="34.77" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"/><stop offset="1" stop-color="#e6abff"/></linearGradient><path fill="url(#X8PQgv_hN2z14HAU6EeM8d)" d="M55.99,16.85c-0.03,0.64-0.87,1.44-1.3,1.74L32,34.77L9.3,18.58 c-0.42-0.29-1.26-1.09-1.29-1.73c0.02-1.3,0.87-2.38,2.02-2.72L32,29.56l21.97-15.43C55.12,14.47,55.97,15.55,55.99,16.85z"/></svg>
+                  <span class="contacts__text">toz.vito@gmail.com</span>
+                </a>
+              </li>
+              <li>
+                <a class="contacts__link" href="https://github.com/pixelslogic">
+                  <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64" width="64px" height="64px"><linearGradient id="KpzH_ttTMIjq8dhx1zD2pa" x1="30.999" x2="30.999" y1="16" y2="55.342" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"/><stop offset="1" stop-color="#e6abff"/></linearGradient><path fill="url(#KpzH_ttTMIjq8dhx1zD2pa)" d="M25.008,56.007c-0.003-0.368-0.006-1.962-0.009-3.454l-0.003-1.55 c-6.729,0.915-8.358-3.78-8.376-3.83c-0.934-2.368-2.211-3.045-2.266-3.073l-0.124-0.072c-0.463-0.316-1.691-1.157-1.342-2.263 c0.315-0.997,1.536-1.1,2.091-1.082c3.074,0.215,4.63,2.978,4.694,3.095c1.569,2.689,3.964,2.411,5.509,1.844 c0.144-0.688,0.367-1.32,0.659-1.878C20.885,42.865,15.27,40.229,15.27,30.64c0-2.633,0.82-4.96,2.441-6.929 c-0.362-1.206-0.774-3.666,0.446-6.765l0.174-0.442l0.452-0.144c0.416-0.137,2.688-0.624,7.359,2.433 c1.928-0.494,3.969-0.749,6.074-0.759c2.115,0.01,4.158,0.265,6.09,0.759c4.667-3.058,6.934-2.565,7.351-2.433l0.451,0.145 l0.174,0.44c1.225,3.098,0.813,5.559,0.451,6.766c1.618,1.963,2.438,4.291,2.438,6.929c0,9.591-5.621,12.219-10.588,13.087 c0.563,1.065,0.868,2.402,0.868,3.878c0,1.683-0.007,7.204-0.015,8.402l-2-0.014c0.008-1.196,0.015-6.708,0.015-8.389 c0-2.442-0.943-3.522-1.35-3.874l-1.73-1.497l2.274-0.253c5.205-0.578,10.525-2.379,10.525-11.341c0-2.33-0.777-4.361-2.31-6.036 l-0.43-0.469l0.242-0.587c0.166-0.401,0.894-2.442-0.043-5.291c-0.758,0.045-2.568,0.402-5.584,2.447l-0.384,0.259l-0.445-0.123 c-1.863-0.518-3.938-0.796-6.001-0.806c-2.052,0.01-4.124,0.288-5.984,0.806l-0.445,0.123l-0.383-0.259 c-3.019-2.044-4.833-2.404-5.594-2.449c-0.935,2.851-0.206,4.892-0.04,5.293l0.242,0.587l-0.429,0.469 c-1.536,1.681-2.314,3.712-2.314,6.036c0,8.958,5.31,10.77,10.504,11.361l2.252,0.256l-1.708,1.49 c-0.372,0.325-1.03,1.112-1.254,2.727l-0.075,0.549l-0.506,0.227c-1.321,0.592-5.839,2.162-8.548-2.485 c-0.015-0.025-0.544-0.945-1.502-1.557c0.646,0.639,1.433,1.673,2.068,3.287c0.066,0.19,1.357,3.622,7.28,2.339l1.206-0.262 l0.012,3.978c0.003,1.487,0.006,3.076,0.009,3.444L25.008,56.007z"/><linearGradient id="KpzH_ttTMIjq8dhx1zD2pb" x1="32" x2="32" y1="5" y2="59.167" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#1a6dff"/><stop offset="1" stop-color="#c822ff"/></linearGradient><path fill="url(#KpzH_ttTMIjq8dhx1zD2pb)" d="M32,58C17.663,58,6,46.337,6,32S17.663,6,32,6s26,11.663,26,26S46.337,58,32,58z M32,8 C18.767,8,8,18.767,8,32s10.767,24,24,24s24-10.767,24-24S45.233,8,32,8z"/></svg>
+                  <span class="contacts__text">github.com/pixelslogic</span>
+                </a>
+              </li>
+              <li>
+                <a class="contacts__link" href="https://discordapp.com/users/pixelslogic">
+                  <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64" width="64px" height="64px"><linearGradient id="ojxs_RS1~BeeBtSHUxpmva" x1="39.938" x2="39.938" y1="30" y2="39" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"/><stop offset="1" stop-color="#e6abff"/></linearGradient><path fill="url(#ojxs_RS1~BeeBtSHUxpmva)" d="M39.938 30A3.938 4.5 0 1 0 39.938 39A3.938 4.5 0 1 0 39.938 30Z"/><linearGradient id="ojxs_RS1~BeeBtSHUxpmvb" x1="31.999" x2="31.999" y1="10.961" y2="53" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#1a6dff"/><stop offset="1" stop-color="#c822ff"/></linearGradient><path fill="url(#ojxs_RS1~BeeBtSHUxpmvb)" d="M52.263,15.938c-4.816-3.871-13.024-4.925-13.372-4.968c-0.437-0.057-0.855,0.182-1.035,0.583 c-0.025,0.055-0.543,1.23-0.778,2.782C35.086,14.073,33.313,14,31.983,14c-1.373,0-3.216,0.076-5.289,0.36 c-0.233-1.564-0.757-2.753-0.782-2.808c-0.18-0.401-0.598-0.636-1.039-0.583c-0.337,0.043-8.322,1.099-13.188,5.013 C9.122,18.35,4,32.125,4,44c0,0.173,0.045,0.344,0.131,0.495c3.427,6.02,13.558,8.432,15.837,8.505c0.011,0,0.021,0,0.032,0 c0.303,0,0.591-0.138,0.781-0.375l3.495-4.368C26.519,48.703,29.098,49,32.024,49c2.911,0,5.474-0.294,7.706-0.737l3.49,4.362 C43.409,52.862,43.697,53,44,53c0.011,0,0.021,0,0.032,0c2.274-0.073,12.39-2.495,15.835-8.547c0.086-0.15,0.131-0.321,0.131-0.495 C59.999,32.105,54.877,18.349,52.263,15.938z M44.451,50.963l-2.56-3.2c5.635-1.499,8.568-3.846,8.744-3.99 c0.426-0.35,0.487-0.978,0.139-1.405c-0.349-0.426-0.978-0.49-1.406-0.143C49.309,42.273,43.365,47,32.024,47 c-11.331,0-17.322-4.719-17.394-4.776c-0.427-0.348-1.057-0.284-1.405,0.145c-0.349,0.428-0.285,1.058,0.144,1.407 c0.177,0.144,3.121,2.48,8.748,3.979l-2.567,3.209c-2.906-0.323-10.736-2.658-13.547-7.236c0.078-11.308,5.015-24.405,6.989-26.232 c3.547-2.851,9.281-4.06,11.356-4.42c0.133,0.413,0.281,0.98,0.373,1.611c-2.991,0.579-6.274,1.619-9.246,3.463 c-0.47,0.291-0.614,0.907-0.323,1.376c0.292,0.471,0.907,0.616,1.376,0.323C21.928,16.5,28.529,16,31.983,16 c3.467,0,10.089,0.5,15.49,3.85c0.164,0.102,0.346,0.15,0.526,0.15c0.334,0,0.662-0.168,0.851-0.473 c0.292-0.469,0.147-1.085-0.323-1.376c-3.043-1.888-6.417-2.931-9.473-3.502c0.093-0.618,0.239-1.171,0.369-1.576 c2.109,0.352,8.01,1.549,11.534,4.379c2.026,1.871,6.961,14.95,7.04,26.235C55.172,48.292,47.352,50.64,44.451,50.963z"/><linearGradient id="ojxs_RS1~BeeBtSHUxpmvc" x1="24" x2="24" y1="30" y2="39" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"/><stop offset="1" stop-color="#e6abff"/></linearGradient><path fill="url(#ojxs_RS1~BeeBtSHUxpmvc)" d="M24 30A4 4.5 0 1 0 24 39A4 4.5 0 1 0 24 30Z"/></svg>
+                  <span class="contacts__text">pixelslogic</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="languages">
+            <div class="languages__title-wrapper">
+              <div class="languages__icon">
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.50618 1.47114C7.6897 0.648108 6.61209 0.136154 5.45912 0.0235406C4.30615 -0.089073 3.15007 0.20471 2.1902 0.854242C1.23033 1.50377 0.52681 2.46835 0.200939 3.58168C-0.124932 4.695 -0.0527371 5.88731 0.405077 6.95304C0.452793 7.05209 0.468449 7.16359 0.449862 7.27199L0.0119645 9.38002C-0.00490637 9.46085 -0.0014613 9.5446 0.0219902 9.62376C0.0454416 9.70292 0.0881645 9.775 0.146319 9.83353C0.193993 9.88093 0.250755 9.91817 0.313185 9.943C0.375615 9.96784 0.442421 9.97976 0.509575 9.97805H0.609097L2.73887 9.54947C2.84712 9.53643 2.95688 9.55189 3.05734 9.59432C4.12148 10.0528 5.31201 10.1251 6.42367 9.79876C7.53533 9.4724 8.49847 8.76784 9.14703 7.80653C9.79559 6.84522 10.0889 5.68742 9.97649 4.53272C9.86405 3.37802 9.35286 2.2988 8.53106 1.48111L8.50618 1.47114ZM2.99763 5.49286C2.89921 5.49286 2.803 5.46363 2.72117 5.40887C2.63934 5.35411 2.57556 5.27628 2.5379 5.18522C2.50023 5.09416 2.49038 4.99395 2.50958 4.89728C2.52878 4.80061 2.57617 4.71181 2.64576 4.64212C2.71536 4.57242 2.80402 4.52496 2.90055 4.50573C2.99708 4.4865 3.09713 4.49637 3.18805 4.53409C3.27898 4.57181 3.3567 4.63568 3.41138 4.71763C3.46605 4.79959 3.49524 4.89594 3.49524 4.99451C3.49524 5.12668 3.44281 5.25344 3.34949 5.3469C3.25617 5.44036 3.1296 5.49286 2.99763 5.49286ZM4.98807 5.49286C4.88965 5.49286 4.79344 5.46363 4.71161 5.40887C4.62978 5.35411 4.566 5.27628 4.52834 5.18522C4.49067 5.09416 4.48082 4.99395 4.50002 4.89728C4.51922 4.80061 4.56661 4.71181 4.63621 4.64212C4.7058 4.57242 4.79446 4.52496 4.89099 4.50573C4.98752 4.4865 5.08757 4.49637 5.1785 4.53409C5.26942 4.57181 5.34714 4.63568 5.40182 4.71763C5.4565 4.79959 5.48568 4.89594 5.48568 4.99451C5.48568 5.12668 5.43325 5.25344 5.33993 5.3469C5.24661 5.44036 5.12004 5.49286 4.98807 5.49286ZM6.97851 5.49286C6.88009 5.49286 6.78388 5.46363 6.70205 5.40887C6.62022 5.35411 6.55644 5.27628 6.51878 5.18522C6.48112 5.09416 6.47126 4.99395 6.49046 4.89728C6.50966 4.80061 6.55705 4.71181 6.62665 4.64212C6.69624 4.57242 6.7849 4.52496 6.88143 4.50573C6.97796 4.4865 7.07801 4.49637 7.16894 4.53409C7.25986 4.57181 7.33758 4.63568 7.39226 4.71763C7.44694 4.79959 7.47612 4.89594 7.47612 4.99451C7.47612 5.12668 7.4237 5.25344 7.33038 5.3469C7.23705 5.44036 7.11049 5.49286 6.97851 5.49286Z" fill="#18191C"/>
+                </svg>
+              </div>
+              <h2>Languages</h2>
+            </div>
+            <ul class="languages__list">
+              <li>
+                <div class="languages__wrapper">
+                  <span>Russian</span>
+                  <span><i>Native language</i></span>
+                </div>
+                <div class="languages__skills dots">
+                  <span class="dots__dot dots__dot--active"></span>
+                  <span class="dots__dot dots__dot--active"></span>
+                  <span class="dots__dot dots__dot--active"></span>
+                  <span class="dots__dot dots__dot--active"></span>
+                  <span class="dots__dot dots__dot--active"></span>
+                </div>
+              </li>
+              <li>
+                <div class="languages__wrapper">
+                  <span>Spanish</span>
+                  <span><i>Intermediate</i></span>
+                </div>
+                <div class="languages__skills dots">
+                  <span class="dots__dot dots__dot--active"></span>
+                  <span class="dots__dot dots__dot--active"></span>
+                  <span class="dots__dot dots__dot--active"></span>
+                  <span class="dots__dot dots__dot--active"></span>
+                  <span class="dots__dot"></span>
+                </div>
+              </li>
+              <li>
+                <div class="languages__wrapper">
+                  <span>English</span>
+                  <span><i>Pre-Intermediate</i></span>
+                </div>
+                <div class="languages__skills dots">
+                  <span class="dots__dot dots__dot--active"></span>
+                  <span class="dots__dot dots__dot--active"></span>
+                  <span class="dots__dot"></span>
+                  <span class="dots__dot"></span>
+                  <span class="dots__dot"></span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skills">
+            <div class="skills__title-wrapper">
+              <div class="skills__icon">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6.66667 3.33333C5.96706 3.33333 5.28518 3.55346 4.71763 3.96252C4.15008 4.37159 3.72562 4.94887 3.50439 5.61257C3.28315 6.27628 3.27635 6.99277 3.48495 7.66056C3.69355 8.32834 4.10698 8.91357 4.66667 9.33333V12C4.66667 12.3536 4.80714 12.6928 5.05719 12.9428C5.30724 13.1929 5.64638 13.3333 6 13.3333H7.33333C7.68695 13.3333 8.02609 13.1929 8.27614 12.9428C8.52619 12.6928 8.66667 12.3536 8.66667 12V9.33333C9.22635 8.91357 9.63978 8.32834 9.84838 7.66056C10.057 6.99277 10.0502 6.27628 9.82894 5.61257C9.60771 4.94887 9.18325 4.37159 8.6157 3.96252C8.04815 3.55346 7.36627 3.33333 6.66667 3.33333Z" fill="#18191C"/>
+                  <path d="M6.66667 2.66667C6.84348 2.66667 7.01305 2.59643 7.13807 2.4714C7.2631 2.34638 7.33333 2.17681 7.33333 2V0.666667C7.33333 0.489856 7.2631 0.320286 7.13807 0.195262C7.01305 0.0702379 6.84348 0 6.66667 0C6.48986 0 6.32029 0.0702379 6.19526 0.195262C6.07024 0.320286 6 0.489856 6 0.666667V2C6 2.17681 6.07024 2.34638 6.19526 2.4714C6.32029 2.59643 6.48986 2.66667 6.66667 2.66667Z" fill="#18191C"/>
+                  <path d="M12.6667 6H11.3333C11.1565 6 10.987 6.07024 10.8619 6.19527C10.7369 6.32029 10.6667 6.48986 10.6667 6.66667C10.6667 6.84348 10.7369 7.01305 10.8619 7.13807C10.987 7.2631 11.1565 7.33334 11.3333 7.33334H12.6667C12.8435 7.33334 13.013 7.2631 13.1381 7.13807C13.2631 7.01305 13.3333 6.84348 13.3333 6.66667C13.3333 6.48986 13.2631 6.32029 13.1381 6.19527C13.013 6.07024 12.8435 6 12.6667 6Z" fill="#18191C"/>
+                  <path d="M2 6H0.666667C0.489856 6 0.320286 6.07024 0.195262 6.19527C0.0702379 6.32029 0 6.48986 0 6.66667C0 6.84348 0.0702379 7.01305 0.195262 7.13807C0.320286 7.2631 0.489856 7.33334 0.666667 7.33334H2C2.17681 7.33334 2.34638 7.2631 2.4714 7.13807C2.59643 7.01305 2.66667 6.84348 2.66667 6.66667C2.66667 6.48986 2.59643 6.32029 2.4714 6.19527C2.34638 6.07024 2.17681 6 2 6Z" fill="#18191C"/>
+                  <path d="M3.77333 2.94667L2.81333 2C2.68338 1.87712 2.50993 1.81089 2.33114 1.81589C2.15236 1.82089 1.98288 1.89671 1.86 2.02667C1.73712 2.15662 1.67089 2.33007 1.67589 2.50886C1.68089 2.68764 1.75671 2.85712 1.88667 2.98L2.84667 3.90667C2.91109 3.96887 2.98739 4.01746 3.071 4.04953C3.15462 4.08161 3.24384 4.0965 3.33333 4.09333C3.42314 4.09299 3.51195 4.07451 3.59443 4.03899C3.67691 4.00348 3.75137 3.95167 3.81333 3.88667C3.93234 3.75655 3.99494 3.58458 3.98744 3.40841C3.97995 3.23223 3.90296 3.06621 3.77333 2.94667Z" fill="#18191C"/>
+                  <path d="M11.46 2.03333C11.3351 1.90916 11.1661 1.83947 10.99 1.83947C10.8139 1.83947 10.6449 1.90916 10.52 2.03333L9.56 2.94667C9.43583 3.07157 9.36614 3.24054 9.36614 3.41667C9.36614 3.59279 9.43583 3.76176 9.56 3.88667C9.62196 3.95167 9.69642 4.00348 9.77891 4.03899C9.86139 4.07451 9.9502 4.09299 10.04 4.09333C10.2116 4.09265 10.3764 4.02579 10.5 3.90667L11.46 2.98C11.5225 2.91802 11.5721 2.84429 11.6059 2.76305C11.6398 2.68181 11.6572 2.59467 11.6572 2.50667C11.6572 2.41866 11.6398 2.33152 11.6059 2.25028C11.5721 2.16904 11.5225 2.09531 11.46 2.03333Z" fill="#18191C"/>
+                </svg>
+              </div>
+              <h2>Skills</h2>
+            </div>
+            <ul class="skills__list">
+              <li>
+                <span class="skills__span html"></span><em>HTML</em>
+              </li>
+              <li>
+                <span class="skills__span css"></span><em>CSS</em>
+              </li>
+              <li>
+                <span class="skills__span js"></span><em>Javascript</em>
+              </li>
+              <li>
+                <span class="skills__span react"></span><em>React</em>
+              </li>
+              <li>
+                <span class="skills__span node"></span><em>Node.js</em>
+              </li>
+              <li>
+                <span class="skills__span freemarker"></span><em>Freemarker</em>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <div class="additional-info">
+        <section>
+          <h2>Viktoriia Tozik</h2>
+        </section>
+
+        <section>
+          <h2>Experience</h2>
+          <div>
+            <h3>Desarrollador</h3>
+            <span>Petrozavodsk, Russia | August 2023 - August 2024 | 1 year</span>
+          </div>
+          <div>
+            <p>Desarollo de sistemas de gestion de documentos para la Administracion regional.</p>
+            <span>Projects</span>
+            <ul>
+              <li>Application for maternity/paternity leave benefits</li>
+              <li>Building permit request</li>
+              <li>Income tax (IRPF) payment</li>
+              <li>Passport renewal system</li>
+            </ul>
+            <p>Chatbot Management with Text-to-Speech Functionality:</p>
+            <span>Responsibilities:</span>
+            <ul>
+              <li>Ticket management</li>
+              <li>Communication between companies</li>
+              <li>Collaboration with developers</li>
+              <li>Error diagnosis</li>
+              <li>User communication to detect issues</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>Education</h2>
+          <ul class="education-list">
+            <li class="education-item">
+              <h3>Vocational Education and Training (VET) Diploma <i>(in progress)</i></h3>
+              <p>Field of Study: Information Systems and Programming<br>
+                  Specialization: Web and Multimedia Application Developer<br>
+                  Qualification Level: EQF Level 4 (expected)<br>
+                  Institution: S.Y. Witte Moscow University, Moscow, Russia Expected graduation: December 2025</p>
+            </li>
+            <li class="education-item">
+              <h3>Frontend Developer Certification</h3>
+              <p>HTML Academy</p>
+            </li>
+            <li class="education-item">
+              <h3>Auxiliary Assembly and Maintenance of Microcomputer Systems</h3>
+              <p>Ipartek Formación</p>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Code example:</h2>
+          <pre>
+            <code>
+              function spinWords(string){
+                let newString = [];
+                
+                for (let word of string.split(" ")) {
+                  if ( word.length >= 5)  {
+                      newString.push (word.split('').reverse().join(''));
+                      } else {
+                        newString.push(word);
+                      }
+                }
+                return newString.join(' ');
+              }
+
+              console.log(spinWords("Hey fellow warriors")); 
+            </code>
+          </pre>
+        </section>
+
+        <section class="projects">
+          <h2>Pet Projects</h2>
+          <ul class="projects__list">
+            <li>
+              <div class="projects__wrapper">
+                <div class="projects__content">
+                  <img src="img/cat-energy.png" alt="Cat-energy project">
+                  <div class="projects__overlay"></div> <!-- маска можно сюда -->
+                </div>
+                <a href="https://github.com/pixelslogic/Cat-energy">Cat Energy</a>
+              </div>
+            </li>
+            <li>
+              <div class="projects__wrapper">
+                <div class="projects__content">
+                  <img src="img/supergym.jpg" alt="Orbitra project">
+                  <div class="projects__overlay"></div>
+                </div>
+                <a href="https://github.com/pixelslogic/Orbitra">Orbitra</a>
+              </div>
+            </li>
+            <li>
+              <div class="projects__wrapper">
+                <div class="projects__content">
+                  <img src="img/supergym.jpg" alt="SuperGym project">
+                  <div class="projects__overlay"></div>
+                </div>
+                <a href="https://github.com/pixelslogic/SuperGym">SuperGym</a>
+              </div>
+            </li>
+            <li>
+              <div class="projects__wrapper">
+                <div class="projects__content">
+                  <img src="img/drink2go.png" alt="Drink2Go project">
+                  <div class="projects__overlay"></div>
+                </div>
+                <a href="https://github.com/pixelslogic/Drink2Go">Drink2Go</a>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <ul class="footer__list">
+        <li>
+          <a class="footer__link" href="https://github.com/pixelslogic">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64" width="64px" height="64px"><linearGradient id="KpzH_ttTMIjq8dhx1zD2pa" x1="30.999" x2="30.999" y1="16" y2="55.342" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"/><stop offset="1" stop-color="#e6abff"/></linearGradient><path fill="url(#KpzH_ttTMIjq8dhx1zD2pa)" d="M25.008,56.007c-0.003-0.368-0.006-1.962-0.009-3.454l-0.003-1.55 c-6.729,0.915-8.358-3.78-8.376-3.83c-0.934-2.368-2.211-3.045-2.266-3.073l-0.124-0.072c-0.463-0.316-1.691-1.157-1.342-2.263 c0.315-0.997,1.536-1.1,2.091-1.082c3.074,0.215,4.63,2.978,4.694,3.095c1.569,2.689,3.964,2.411,5.509,1.844 c0.144-0.688,0.367-1.32,0.659-1.878C20.885,42.865,15.27,40.229,15.27,30.64c0-2.633,0.82-4.96,2.441-6.929 c-0.362-1.206-0.774-3.666,0.446-6.765l0.174-0.442l0.452-0.144c0.416-0.137,2.688-0.624,7.359,2.433 c1.928-0.494,3.969-0.749,6.074-0.759c2.115,0.01,4.158,0.265,6.09,0.759c4.667-3.058,6.934-2.565,7.351-2.433l0.451,0.145 l0.174,0.44c1.225,3.098,0.813,5.559,0.451,6.766c1.618,1.963,2.438,4.291,2.438,6.929c0,9.591-5.621,12.219-10.588,13.087 c0.563,1.065,0.868,2.402,0.868,3.878c0,1.683-0.007,7.204-0.015,8.402l-2-0.014c0.008-1.196,0.015-6.708,0.015-8.389 c0-2.442-0.943-3.522-1.35-3.874l-1.73-1.497l2.274-0.253c5.205-0.578,10.525-2.379,10.525-11.341c0-2.33-0.777-4.361-2.31-6.036 l-0.43-0.469l0.242-0.587c0.166-0.401,0.894-2.442-0.043-5.291c-0.758,0.045-2.568,0.402-5.584,2.447l-0.384,0.259l-0.445-0.123 c-1.863-0.518-3.938-0.796-6.001-0.806c-2.052,0.01-4.124,0.288-5.984,0.806l-0.445,0.123l-0.383-0.259 c-3.019-2.044-4.833-2.404-5.594-2.449c-0.935,2.851-0.206,4.892-0.04,5.293l0.242,0.587l-0.429,0.469 c-1.536,1.681-2.314,3.712-2.314,6.036c0,8.958,5.31,10.77,10.504,11.361l2.252,0.256l-1.708,1.49 c-0.372,0.325-1.03,1.112-1.254,2.727l-0.075,0.549l-0.506,0.227c-1.321,0.592-5.839,2.162-8.548-2.485 c-0.015-0.025-0.544-0.945-1.502-1.557c0.646,0.639,1.433,1.673,2.068,3.287c0.066,0.19,1.357,3.622,7.28,2.339l1.206-0.262 l0.012,3.978c0.003,1.487,0.006,3.076,0.009,3.444L25.008,56.007z"/><linearGradient id="KpzH_ttTMIjq8dhx1zD2pb" x1="32" x2="32" y1="5" y2="59.167" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#1a6dff"/><stop offset="1" stop-color="#c822ff"/></linearGradient><path fill="url(#KpzH_ttTMIjq8dhx1zD2pb)" d="M32,58C17.663,58,6,46.337,6,32S17.663,6,32,6s26,11.663,26,26S46.337,58,32,58z M32,8 C18.767,8,8,18.767,8,32s10.767,24,24,24s24-10.767,24-24S45.233,8,32,8z"/></svg>
+          </a>
         </li>
-        <li class="header-nav-item">
-          <a class="header-nav-link" href="#">Pet projects</a>
+        <li>
+          <span>2025</span>
+        </li>
+        <li>
+          <a class="footer__link footer__link-github" href="https://rs.school/courses/javascript-ru">
+            <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 552.8 205.3"><style>.st0{fill:#fff}.st5,.st7{fill:#fff;stroke:#000;stroke-width:4;stroke-miterlimit:10}.st7{fill:none}</style><path d="m285.4 68 26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.9 3.6 6.9 5.4 12.2 5.4 3.9 0 7-.9 9.1-2.8 2-1.5 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.1-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4 6 4.2 9.6 11 10.7 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8s-5.3-2.8-9.2-2.8c-3.2 0-5.6.7-7.2 2-1.5 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.5 13.3 0 5.6-1.6 11.2-4.8 15.9-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8S286.1 77 285.4 68zM6.3 97.6V8.2h46.1c8.5 0 15.1.7 19.6 2.2 4.4 1.4 8.3 4.3 10.9 8.2 2.9 4.3 4.3 9.3 4.2 14.5.3 8.8-4.2 17.2-11.9 21.6-3 1.7-6.3 2.9-9.7 3.5 2.5.7 5 1.9 7.2 3.3 1.7 1.4 3.1 3 4.4 4.7 1.5 1.7 2.8 3.6 3.9 5.6l13.4 25.9H63L48.2 70.2c-1.9-3.5-3.5-5.8-5-6.9-2-1.4-4.4-2.1-6.8-2.1H34v36.3H6.3zM34 44.4h11.7c2.5-.2 4.9-.6 7.3-1.2 1.8-.3 3.4-1.3 4.5-2.8 2.7-3.6 2.3-8.7-1-11.8-1.8-1.5-5.3-2.3-10.3-2.3H34v18.1zM0 174.2l26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.8 3.6 6.9 5.5 12.2 5.5 3.9 0 7-.9 9.1-2.8 2-1.6 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.2-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4s9.5 11 10.6 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8-2.2-1.9-5.3-2.8-9.2-2.7-3.2 0-5.6.7-7.2 2.1-1.6 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.6 13.2 0 5.6-1.7 11.1-4.8 15.8-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8-5.9-6-9.2-13.4-10-22.4z"/><path d="m133 167.2 24.2 7.3c-1.3 6.1-4 11.9-7.7 17-3.4 4.5-7.9 8-13 10.3-5.2 2.3-11.8 3.5-19.8 3.5-9.7 0-17.7-1.4-23.8-4.2-6.2-2.8-11.5-7.8-16-14.9-4.5-7.1-6.7-16.2-6.7-27.3 0-14.8 3.9-26.2 11.8-34.1s19-11.9 33.4-11.9c11.3 0 20.1 2.3 26.6 6.8 6.4 4.6 11.2 11.6 14.4 21l-24.4 5.4c-.6-2.1-1.5-4.2-2.7-6-1.5-2.1-3.4-3.7-5.7-4.9-2.3-1.2-4.9-1.7-7.5-1.7-6.3 0-11.1 2.5-14.4 7.6-2.5 3.7-3.8 9.6-3.8 17.6 0 9.9 1.5 16.7 4.5 20.4 3 3.7 7.2 5.5 12.7 5.5 5.3 0 9.3-1.5 12-4.4 2.7-3.1 4.7-7.4 5.9-13zm56.5-52.8h27.6v31.3h30.2v-31.3h27.8v89.4h-27.8v-36.2h-30.2v36.2h-27.6v-89.4z"/><path d="M271.3 159.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.3 4 34.4 12S364 144 364 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8s4.9-10.8 4.9-20.8c0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5zm93.4-.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.4 4 34.4 12S485 144 485 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8 3.3-3.9 4.9-10.8 4.9-20.8 0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10.1 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5z"/><path d="M482.1 114.4h27.6v67.4h43.1v22H482v-89.4z"/><ellipse transform="rotate(-37.001 420.46 67.88)" class="st0" cx="420.5" cy="67.9" rx="63" ry="51.8"/><defs><ellipse id="SVGID_1_" transform="rotate(-37.001 420.46 67.88)" cx="420.5" cy="67.9" rx="63" ry="51.8"/></defs><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_" overflow="visible"/></clipPath><g style="clip-path:url(#SVGID_2_)"><path transform="rotate(-37.001 420.82 68.353)" class="st0" d="M330.9-14.2h179.8v165.1H330.9z"/><g id="Layer_2_1_"><defs><path id="SVGID_3_" transform="rotate(-37.001 420.82 68.353)" d="M330.9-14.2h179.8v165.1H330.9z"/></defs><clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_" overflow="visible"/></clipPath><g id="Layer_1-2" style="clip-path:url(#SVGID_4_)"><ellipse transform="rotate(-37.001 420.46 67.88)" class="st0" cx="420.5" cy="67.9" rx="63" ry="51.8"/><defs><ellipse id="SVGID_5_" transform="rotate(-37.001 420.46 67.88)" cx="420.5" cy="67.9" rx="63" ry="51.8"/></defs><clipPath id="SVGID_6_"><use xlink:href="#SVGID_5_" overflow="visible"/></clipPath><g style="clip-path:url(#SVGID_6_)"><path transform="rotate(-37 420.799 68.802)" class="st0" d="M357.8 17h125.9v103.7H357.8z"/><defs><path id="SVGID_7_" transform="rotate(-37 420.799 68.802)" d="M357.8 17h125.9v103.7H357.8z"/></defs><clipPath id="SVGID_8_"><use xlink:href="#SVGID_7_" overflow="visible"/></clipPath><ellipse transform="rotate(-37.001 420.46 67.88)" class="st5" cx="420.5" cy="67.9" rx="63" ry="51.8" style="clip-path:url(#SVGID_8_)"/><path transform="rotate(-37 420.799 68.802)" d="M357.8 17h125.9v103.7H357.8z" style="fill:none;stroke:#000;stroke-width:4;stroke-miterlimit:10;clip-path:url(#SVGID_8_)"/><ellipse transform="rotate(-37.001 420.46 67.88)" class="st7" cx="420.5" cy="67.9" rx="63" ry="51.8"/><path transform="rotate(-37 420.799 68.802)" class="st0" d="M357.8 17h125.9v103.7H357.8z"/><defs><path id="SVGID_9_" transform="rotate(-37 420.799 68.802)" d="M357.8 17h125.9v103.7H357.8z"/></defs><clipPath id="SVGID_10_"><use xlink:href="#SVGID_9_" overflow="visible"/></clipPath><ellipse transform="rotate(-37.001 420.46 67.88)" class="st5" cx="420.5" cy="67.9" rx="63" ry="51.8" style="clip-path:url(#SVGID_10_)"/><path transform="rotate(-37 420.799 68.802)" d="M357.8 17h125.9v103.7H357.8z" style="fill:none;stroke:#000;stroke-width:4;stroke-miterlimit:10;clip-path:url(#SVGID_10_)"/><path transform="rotate(-37.001 420.82 68.353)" class="st7" d="M330.9-14.2h179.8v165.1H330.9z"/></g><ellipse transform="rotate(-37.001 420.46 67.88)" class="st7" cx="420.5" cy="67.9" rx="63" ry="51.8"/><path d="m392.4 61.3 10-7 12.3 17.5c2.1 2.8 3.7 5.8 4.9 9.1.7 2.5.5 5.2-.5 7.6-1.3 3-3.4 5.5-6.2 7.3-3.3 2.3-6.1 3.6-8.5 4-2.3.4-4.7 0-6.9-1-2.4-1.2-4.5-2.9-6.1-5.1l8.6-8c.7 1.1 1.6 2.1 2.6 2.9.7.5 1.5.8 2.4.8.7 0 1.4-.3 1.9-.7 1-.6 1.7-1.8 1.6-3-.3-1.7-1-3.4-2.1-4.7l-14-19.7zm30 11.1 9.1-7.2c1 1.2 2.3 2.1 3.7 2.6 2 .6 4.1.2 5.8-1.1 1.2-.8 2.2-1.9 2.6-3.3.6-1.8-.4-3.8-2.2-4.4-.3-.1-.6-.2-.9-.2-1.2-.1-3.3.4-6.4 1.7-5.1 2.1-9.1 2.9-12.1 2.6-2.9-.3-5.6-1.8-7.2-4.3-1.2-1.7-1.8-3.7-1.9-5.7 0-2.3.6-4.6 1.9-6.5 1.9-2.7 4.2-5 7-6.8 4.2-2.9 7.9-4.3 11.1-4.3 3.2 0 6.2 1.5 9 4.6l-9 7.1c-1.8-2.3-5.2-2.8-7.5-1l-.3.3c-1 .6-1.7 1.5-2.1 2.6-.3.8-.1 1.7.4 2.4.4.5 1 .9 1.7.9.8.1 2.2-.3 4.2-1.2 5-2.1 8.8-3.3 11.4-3.7 2.2-.4 4.5-.2 6.6.7 1.9.8 3.5 2.2 4.6 3.9 1.4 2 2.2 4.4 2.3 6.9.1 2.6-.6 5.1-2 7.3-1.8 2.7-4.1 5-6.8 6.8-5.5 3.8-10 5.4-13.6 4.8-3.9-.6-7.1-2.6-9.4-5.5z"/></g></g></g></svg>
+          </a>
         </li>
       </ul>
-    </nav>
-  </header>
-  <main class="main">
-    <h1 class="visually-hidden">Curriculum Vitae</h1>
-    <div class="personal-info">
-      <section>
-        <div>
-          <!-- заменить на фото -->
-          <img class="personal-photo" src="#" alt="Photo of the person">
-          <!-- файл выше -->
-          <h3>Location</h3>
-          <address>
-            <span>Bilbao, Spain</span>
-          </address>
-          <a class="contacts-phone" href="toz.vito@gmail.com">Email</a>
-          <a href="https://github.com/pixelslogic">Github</a>
-          <a href="https://discordapp.com/users/pixelslogic">Discord</a>
-        </div>
-
-        <div class="languages">
-          <h2>Languages</h2>
-          <ul class="languages-list">
-            <li class="languages-item">Russian (Native)</li>
-            <li class="languages-item">Spanish (Intermediate)</li>
-            <li class="languages-item">English (Pre-Intermediate)</li>
-          </ul>
-        </div>
-
-        <div class="skills">
-          <h2>Skills</h2>
-          <ul class="skills-list">
-            <li class="skills-item">HTML</li>
-            <li class="skills-item">CSS</li>
-            <li class="skills-item">JavaScript</li>
-            <li class="skills-item">Freemarker</li>
-            <li class="skills-item">React</li>
-          </ul>
-        </div>
-      </section>
-    </div>
-
-    <div class="additional-info">
-      <section>
-        <h2>Viktoriia Tozik</h2>
-        <h3>Junior Frontend Developer</h3>
-        <p>Studying frontend development with a growing interest in game creation. Passionate about learning new technologies and building interactive, user-friendly applications.
-          Ready to contribute to a team and grow through hands-on experience.</p>
-      </section>
-
-      <section>
-        <h2>Experience</h2>
-        <div>
-          <h3>Desarrollador</h3>
-          <span>Petrozavodsk, Russia | August 2023 - August 2024 | 1 year</span>
-        </div>
-        <div>
-          <p>Desarollo de sistemas de gestion de documentos para la Administracion regional.</p>
-          <span>Projects</span>
-          <ul>
-            <li>Application for maternity/paternity leave benefits</li>
-            <li>Building permit request</li>
-            <li>Income tax (IRPF) payment</li>
-            <li>Passport renewal system</li>
-          </ul>
-          <p>Chatbot Management with Text-to-Speech Functionality:</p>
-          <span>Responsibilities:</span>
-          <ul>
-            <li>Ticket management</li>
-            <li>Communication between companies</li>
-            <li>Collaboration with developers</li>
-            <li>Error diagnosis</li>
-            <li>User communication to detect issues</li>
-          </ul>
-        </div>
-      </section>
-
-      <section>
-        <h2>Education</h2>
-        <ul class="education-list">
-          <li class="education-item">
-            <h3>Vocational Education and Training (VET) Diploma <i>(in progress)</i></h3>
-            <p>Field of Study: Information Systems and Programming<br>
-                Specialization: Web and Multimedia Application Developer<br>
-                Qualification Level: EQF Level 4 (expected)<br>
-                Institution: S.Y. Witte Moscow University, Moscow, Russia Expected graduation: December 2025</p>
-          </li>
-          <li class="education-item">
-            <h3>Frontend Developer Certification</h3>
-            <p>HTML Academy</p>
-          </li>
-          <li class="education-item">
-            <h3>Auxiliary Assembly and Maintenance of Microcomputer Systems</h3>
-            <p>Ipartek Formación</p>
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Code example:</h2>
-        <pre>
-          <code>
-            function spinWords(string){
-              let newString = [];
-              
-              for (let word of string.split(" ")) {
-                if ( word.length >= 5)  {
-                    newString.push (word.split('').reverse().join(''));
-                    } else {
-                      newString.push(word);
-                    }
-              }
-              return newString.join(' ');
-            }
-
-            console.log(spinWords("Hey fellow warriors")); 
-          </code>
-        </pre>
-      </section>
-
-      <section>
-        <h2>Pet Projects</h2>
-        <ul>
-          <li>
-            <a href="https://github.com/pixelslogic/Cat-energy">Cat Energy</a>
-          </li>
-                    <li>
-            <a href="https://github.com/pixelslogic/Orbitra">Orbitra (in process)</a>
-          </li>
-                    <li>
-            <a href="https://github.com/pixelslogic/SuperGym">SuperGym</a>
-          </li>
-        </ul>
-      </section>
-    </div>
-  </main>
-  <footer class="footer">
-    <ul>
-      <li>
-        <a href="#">Github</a>
-      </li>
-      <li>
-        <span>2025</span>
-      </li>
-      <li>
-        <a href="https://rs.school/courses/javascript-ru">
-          <img src="#" alt="RSSchool Logo">
-        </a>
-      </li>
-    </ul>
-  </footer>
+    </footer>
+  </div>
+  <script src="js/script.js" defer></script>
 </body>
 </html>
