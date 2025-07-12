@@ -33,6 +33,7 @@
 
 
   --bg-color: #f2f2f2;
+  --bg-color-opacity: rgba(242, 242, 242, 0.8);
 
   --button-blue-dark: #0b60a3;
   --button-blue-light: #0c6dba;
@@ -42,6 +43,13 @@
   --grey: #9fa5a7;
 
   --dot: #d9d9d9;
+
+  -skills-shadow: rgba(0, 198, 255, 0.4);
+
+  --code-bg: rgba(0, 183, 235, 0.2);
+  
+  --education-line: rgba(0,0,0,0.15);
+  --education-gradient: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
 
 }
 
@@ -54,6 +62,7 @@
 html,
 body {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -84,7 +93,7 @@ a:hover {
   width: 1440px;
   margin: 0 auto;
   border-radius: 15px;
-  background-color: rgba(242, 242, 242, 0.8);
+  background-color: var(--bg-color-opacity);
   border: 1px solid var(--blue-light);
   box-shadow: 0 0 20px var(--avatar-blue, 0.5);
   padding: 0 20px;
@@ -309,7 +318,7 @@ img {
   height: 3px;
   background: var(--blue-light);
   position: absolute;
-  box-shadow: 0px 0px 10px 1px rgba(0, 198, 255, 0.4);
+  box-shadow: 0px 0px 10px 1px var(--skills-shadow);
   border-radius: 3px;
 }
 
@@ -545,6 +554,7 @@ i {
   color: var(--text-color);
   margin: 0;
   line-height: 24px;
+  width: 120px;
 }
 
 h2 span {
@@ -556,6 +566,7 @@ h2 span {
   color: var(--text-color);
   margin: 0;
   grid-column: 1 / -1;
+  margin-top: 10px;
 }
 
 .code {
@@ -583,7 +594,7 @@ h2 span {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, transparent, rgba(0, 183, 235, 0.2), transparent);
+  background: linear-gradient(to bottom, transparent, var(--code-bg), transparent);
   animation: scanWave 4s infinite linear;
 }
 
@@ -679,119 +690,119 @@ h2 span {
 
 /* https://codepen.io/Amedomary/pen/yGbMWO */
 .detroit-preloader .move-grope {
-    transform-origin: center center;
+  transform-origin: center center;
 }
 
 .detroit-preloader .move-grope.a {
-    animation-name: detroit-a;
-    animation-duration: 2.382s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+  animation-name: detroit-a;
+  animation-duration: 2.382s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .detroit-preloader .move-grope.b {
-    animation-name: detroit-b;
-    animation-duration: 2.431s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.68, 0.28, 0.35, 0.65);
+  animation-name: detroit-b;
+  animation-duration: 2.431s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.68, 0.28, 0.35, 0.65);
 }
 
 .detroit-preloader .move-grope.c {
-    animation-name: detroit-c;
-    animation-duration: 2.812s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.55, 0.77);
+  animation-name: detroit-c;
+  animation-duration: 2.812s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.55, 0.77);
 }
 
 .detroit-preloader .over-blur {
-    animation-name: detroit-over, detroit-over-r;
-    animation-duration: 5.217s, 3.71s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.55, 0.77), ease-in-out;
+  animation-name: detroit-over, detroit-over-r;
+  animation-duration: 5.217s, 3.71s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.55, 0.77), ease-in-out;
 }
 
 @keyframes detroit-over {
-    0% {
-        stroke-width: 0;
-    }
-    12% {
-        stroke-width: 0;
-    }
-    50% {
-        stroke-width: 5;
-    }
-    91% {
-        stroke-width: 0;
-    }
-    100% {
-        stroke-width: 0;
-    }
+  0% {
+      stroke-width: 0;
+  }
+  12% {
+      stroke-width: 0;
+  }
+  50% {
+      stroke-width: 5;
+  }
+  91% {
+      stroke-width: 0;
+  }
+  100% {
+      stroke-width: 0;
+  }
 }
 
 @keyframes detroit-over-r {
-    0% {
-        r: 68;
-    }
-    33% {
-        r: 72;
-    }
-    66% {
-        r: 65;
-    }
-    100% {
-        r: 68;
-    }
+  0% {
+      r: 68;
+  }
+  33% {
+      r: 72;
+  }
+  66% {
+      r: 65;
+  }
+  100% {
+      r: 68;
+  }
 }
 
 @keyframes detroit-a {
-    0% {
-        transform: rotate(120deg) scale(1);
-    }
-    50% {
-        transform: rotate(480deg) scale(1.1);
-    }
-    100% {
-        transform: rotate(840deg) scale(1);
-    }
+  0% {
+      transform: rotate(120deg) scale(1);
+  }
+  50% {
+      transform: rotate(480deg) scale(1.1);
+  }
+  100% {
+      transform: rotate(840deg) scale(1);
+  }
 }
 
 @keyframes detroit-b {
-    0% {
-        transform: rotate(0) scale(1);
-    }
-    50% {
-        transform: rotate(360deg) scale(0.95);
-    }
-    100% {
-        transform: rotate(720deg) scale(1);
-    }
+  0% {
+      transform: rotate(0) scale(1);
+  }
+  50% {
+      transform: rotate(360deg) scale(0.95);
+  }
+  100% {
+      transform: rotate(720deg) scale(1);
+  }
 }
 
 @keyframes detroit-c {
-    0% {
-        transform: rotate(240deg);
-    }
-    100% {
-        transform: rotate(960deg);
-    }
+  0% {
+      transform: rotate(240deg);
+  }
+  100% {
+      transform: rotate(960deg);
+  }
 }
 .preloader-ex {
-    transform-origin: center;
-    border-radius: 75%;
-    width: 65px;
-    height: 65px;
-    margin: 15px;
-    display: flex;
+  transform-origin: center;
+  border-radius: 75%;
+  width: 65px;
+  height: 65px;
+  margin: 15px;
+  display: flex;
 }
 
 .preloader-ex > * {
-    margin: auto !important;
+  margin: auto !important;
 }
 
 .preloader-ex.a {
-    transform: rotate(47deg);
-    background: var(--bg-color);
-    color: var(--bg-color);
+  transform: rotate(47deg);
+  background: var(--bg-color);
+  color: var(--bg-color);
 }
 
 /* https://codepen.io/NilsWe/pen/Axdozd */
@@ -814,7 +825,7 @@ h2 span {
   width: 6px;
   height: 100%;
   margin-left: -3px;
-  background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: var(--education-gradient);
   z-index: 5;
 }
 
@@ -861,11 +872,11 @@ h2 span {
 }
 
 .left h3 {
-  box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: -1px 1px 1px var(--education-line), 0 0 1px var(--education-line);
 }
 
 .right h3 {
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: 1px 1px 1px var(--education-line), 0 0 1px var(--education-line);
 }
 
 .left h3:before,
