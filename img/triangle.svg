@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <mask id="triangles" maskUnits="userSpaceOnUse" x="0" y="0" width="300" height="200">
+    <!-- Черный = невидимо, белый = видно -->
+
+    <!-- Основной прямоугольник -->
+    <rect width="300" height="200" fill="white"></rect>
+
+    <!-- Треугольники: 4 штук, чередование -->
+    <polygon points="0,0 75,0 37.5,50" fill="black"></polygon>
+    <polygon points="75,0 150,0 112.5,50" fill="black"></polygon>
+    <polygon points="150,0 225,0 187.5,50" fill="black"></polygon>
+    <polygon points="225,0 300,0 262.5,50" fill="black"></polygon>
+
+    <polygon points="0,200 75,200 37.5,150" fill="black"></polygon>
+    <polygon points="75,200 150,200 112.5,150" fill="black"></polygon>
+    <polygon points="150,200 225,200 187.5,150" fill="black"></polygon>
+    <polygon points="225,200 300,200 262.5,150" fill="black"></polygon>
+  </mask>
+
+  <rect width="300" height="200" fill="black" mask="url(#triangles)"></rect>
+</svg>
