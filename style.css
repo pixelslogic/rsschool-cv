@@ -500,7 +500,7 @@ i {
   z-index: 2;
   width: 50%;
   height: 27%;
-  font-family: 'Gotham';
+  font-family: "Gotham", Arial, sans-serif;
   overflow: hidden;
 }
 
